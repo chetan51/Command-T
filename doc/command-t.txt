@@ -174,7 +174,7 @@ Command-T repository as a submodule:
 Or if you just wish to do a simple clone instead of using submodules:
 
   cd ~/.vim
-  git clone git://git.wincent.com/command-t.git bundle/command-t
+  git clone --recursive git://git.wincent.com/command-t.git bundle/command-t
 
 Once you have a local copy of the repository you can update it at any time
 with:
